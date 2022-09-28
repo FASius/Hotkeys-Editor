@@ -1,0 +1,1822 @@
+[
+    {
+      "label": "CONTROLBAR:ConstructGLASupplyStash",
+      "name": "Supply Stash",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLADemoTrap",
+      "name": "Demo Trap",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLABarracks",
+      "name": "Barracks",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAPalace",
+      "name": "Palace",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAStingerSite",
+      "name": "Stinger Site",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLABlackMarket",
+      "name": "Black Market",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLATunnelNetwork",
+      "name": "Tunnel Network",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAScudStorm",
+      "name": "Scud Storm",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAArmsDealer",
+      "name": "Arms Dealer",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLACommandCenter",
+      "name": "Command Center",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "controlbar:upgradeglaworkerfakecommandset",
+      "name": "Switch to fake structures",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:DisarmMinesAtPosition",
+      "name": "Disarm Mines",
+      "image": "/images/*.*",
+      "count": 12,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAFakeCommandCenter",
+      "name": "Fake Command Center",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAFakeBarracks",
+      "name": "Fake Barracks",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAFakeSupplyStash",
+      "name": "Fake Supply Stash",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAFakeArmsDealer",
+      "name": "Fake Arms Dealer",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAFakeBlackMarket",
+      "name": "Fake Black Market",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLAWorkerReal",
+      "name": "Switch to real structures",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:CaptureBuilding",
+      "name": "Capture Building",
+      "image": "/images/*.*",
+      "count": 16,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:BoobyTrapAttack",
+      "name": "Booby Trap",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:AttackMove",
+      "name": "Attack Move",
+      "image": "/images/*.*",
+      "count": 158,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:Guard",
+      "name": "Guard",
+      "image": "/images/*.*",
+      "count": 164,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:Stop",
+      "name": "Stop",
+      "image": "/images/*.*",
+      "count": 221,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:CarBomb",
+      "name": "Car Bomb",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:Hijack",
+      "name": "Hijack",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:SniperAttack",
+      "name": "Sniper Attack",
+      "image": "/images/*.*",
+      "count": 8,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:SabotageBuilding",
+      "name": "Sabotage Building",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:TransportExit",
+      "name": "Transport Exit",
+      "image": "/images/*.*",
+      "count": 33,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:Evacuate",
+      "name": "Evacuate",
+      "image": "/images/*.*",
+      "count": 61,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:RadarVanScan",
+      "name": "Radar Van Scan",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:Contaminate",
+      "name": "Contaminate",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:DisguiseAsVehicle",
+      "name": "Disguise As Vehicle",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:DetonateBombTruck",
+      "name": "Detonate Bomb Truck",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLABombTruckBioBomb",
+      "name": "Upgrade Bio Bomb",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb",
+      "name": "Upgrade High Explosive Bomb",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ExplosiveWarhead",
+      "name": "Explosive Warhead",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:AnthraxWarhead",
+      "name": "Anthrax Warhead",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAWorker",
+      "name": "Worker",
+      "image": "/images/*.*",
+      "count": 8,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:GPSScrambler",
+      "name": "GPS Scrambler",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:Ambush",
+      "name": "Ambush",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:EmergencyRepair",
+      "name": "Emergency Repair",
+      "image": "/images/*.*",
+      "count": 12,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:AnthraxBomb",
+      "name": "Anthrax Bomb",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:SneakAttack",
+      "name": "Sneak Attack",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:SetRallyPoint",
+      "name": "Set Rally Point",
+      "image": "/images/*.*",
+      "count": 60,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:Sell",
+      "name": "Sell",
+      "image": "/images/*.*",
+      "count": 136,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAInfantryRebel",
+      "name": " Rebel",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAInfantryRPGTrooper",
+      "name": "RPG Trooper",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAInfantryTerrorist",
+      "name": "Terrorist",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAInfantryAngryMob",
+      "name": "Angry Mob",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAInfantryHijacker",
+      "name": "Hijacker",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAInfantryJarmenKell",
+      "name": "Jarmen Kell",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAInfantrySaboteur",
+      "name": "Saboteur",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLABoobyTrap",
+      "name": "Booby Trap",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLARebelCaptureBuilding",
+      "name": "Capture Building",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLATankScorpion",
+      "name": "Tank Scorpion",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAVehicleTechnical",
+      "name": "Technical",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAVehicleRadarVan",
+      "name": "Radar Van",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAVehicleQuadCannon",
+      "name": "Quad Cannon",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAVehicleToxinTruck",
+      "name": "Toxin Truck",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAVehicleRocketBuggy",
+      "name": "Rocket Buggy",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLATankMarauder",
+      "name": "Tank Marauder",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAVehicleBombTruck",
+      "name": "Bomb Truck",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAVehicleScudLauncher",
+      "name": "Scud Launcher",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLAScorpionRocket",
+      "name": "Scorpion Rocket",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAVehicleCombatBike",
+      "name": "Combat Bike",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLAVehicleBattleBus",
+      "name": "Battle Bus",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:StructureExit",
+      "name": "Structure Exit",
+      "image": "/images/*.*",
+      "count": 12,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLAFortifiedStructure",
+      "name": "Fortified Structure",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLAArmTheMob",
+      "name": "Arm The Mob",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLACamouflage",
+      "name": "Camouflage",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLAToxinShells",
+      "name": "Toxin Shells",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLAAnthraxBeta",
+      "name": "Anthrax Beta",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLAAPBullets",
+      "name": "AP Bullets",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLAAPRockets",
+      "name": "AP Rockets",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLAJunkRepair",
+      "name": "Junk Repair",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLABuggyAmmo",
+      "name": "Buggy Ammo",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLARadarVanScan",
+      "name": "Radar Van Scan",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLAWorkerShoes",
+      "name": "Worker Shoes",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ScudStorm",
+      "name": "Scud Storm",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLACamoNetting",
+      "name": "Camo Netting",
+      "image": "/images/*.*",
+      "count": 9,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ProximityFuse",
+      "name": "Proximity Fuse",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ManualControl",
+      "name": "Manual Control",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:Detonate",
+      "name": "Detonate",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:DetonateFakeBuilding",
+      "name": "Detonate Fake Building",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:BecomeRealGLACommandCenter",
+      "name": "Become Real Command Center",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:BecomeRealGLABarracks",
+      "name": "Become Real Barracks",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 1
+    },
+    {
+      "label": "CONTROLBAR:BecomeRealGLASupplyStash",
+      "name": "Become Real Supply Stash",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 2
+    },
+    {
+      "label": "CONTROLBAR:BecomeRealGLAArmsDealer",
+      "name": "Become Real Arms Dealer",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 3
+    },
+    {
+      "label": "CONTROLBAR:BecomeRealGLABlackMarket",
+      "name": "Become Real Black Market",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 4
+    },
+    {
+      "label": "CONTROLBAR:demo_ConstructGLADemoTrap",
+      "name": "Demo Trap",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:SuicideAttack",
+      "name": "Suicide Attack",
+      "image": "/images/*.*",
+      "count": 17,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:TimedDemoCharge",
+      "name": "Timed Demo Charge",
+      "image": "/images/*.*",
+      "count": 5,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:RemoteDemoCharge",
+      "name": "Remote Demo Charge",
+      "image": "/images/*.*",
+      "count": 5,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:DetonateCharges",
+      "name": "Detonate Charges",
+      "image": "/images/*.*",
+      "count": 5,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeSuicideBomb",
+      "name": "Suicide Bomb",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "controlbar:slth_constructglainfantryrebel",
+      "name": "Rebel",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "controlbar:chem_constructglatunnelnetwork",
+      "name": "Tunnel Network",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "controlbar:chem_constructglainfantryrebel",
+      "name": "Rebel",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "controlbar:chem_constructglainfantryterrorist",
+      "name": "Terrorist",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeGLAAnthraxGamma",
+      "name": "Anthrax Gamma",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:RangerMachineGun",
+      "name": "Machine Gun",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:FlashBangGrenadeMode",
+      "name": "Flash Bang Grenade ",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:LaserMissileAttack",
+      "name": "Laser Missile Attack",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:KnifeAttack",
+      "name": "Knife Attack",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaPowerPlant",
+      "name": "Power Plant",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaStrategyCenter",
+      "name": "Strategy Center",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaBarracks",
+      "name": "Barracks",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaSupplyDropZone",
+      "name": "Supply Drop Zone",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaSupplyCenter",
+      "name": "Supply Center",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaParticleCannonUplink",
+      "name": "Particle Cannon",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaPatriotBattery",
+      "name": "Patriot Battery",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaCommandCenter",
+      "name": "Command Center",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaFireBase",
+      "name": "Fire Base",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaWarFactory",
+      "name": "War Factory",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaAirfield",
+      "name": "Airfield",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaVehicleBattleDrone",
+      "name": "Battle Drone",
+      "image": "/images/*.*",
+      "count": 22,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaVehicleScoutDrone",
+      "name": "Scout Drone",
+      "image": "/images/*.*",
+      "count": 22,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaVehicleHellfireDrone",
+      "name": "Hellfire Drone",
+      "image": "/images/*.*",
+      "count": 22,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:AmbulanceCleanupArea",
+      "name": "Ambulance Cleanup Area",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:GuardFlyingUnitsOnly",
+      "name": "Guard Air",
+      "image": "/images/*.*",
+      "count": 8,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:FireRocketPods",
+      "name": "Fire Rocket Pods",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:CombatDrop",
+      "name": "Combat Drop",
+      "image": "/images/*.*",
+      "count": 5,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaDozer",
+      "name": "Dozer",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:SpectreGunship",
+      "name": "Spectre Gunship",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:LeafletDrop",
+      "name": "Leaflet Drop",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:A10ThunderboltMissileStrike",
+      "name": "A10 Missile Strike",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:Paradrop",
+      "name": "Paradrop",
+      "image": "/images/*.*",
+      "count": 5,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:SpyDrone",
+      "name": "Spy Drone",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:DaisyCutter",
+      "name": "Daisy Cutter",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:SpySatellite",
+      "name": "Spy Satellite",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaAdvancedControlRods",
+      "name": "Advanced Control Rods",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaInfantryRanger",
+      "name": "Ranger",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaInfantryMissileDefender",
+      "name": "Missile Defender",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaInfantryColonelBurton",
+      "name": "Colonel Burton",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaInfantryPathfinder",
+      "name": "Pathfinder",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaFlashBangGrenade",
+      "name": "Flash Bang Grenade",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaRangerCaptureBuilding",
+      "name": "Capture Building",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaVehicleChinook",
+      "name": "Chinook",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaTankCrusader",
+      "name": "Tank Crusader",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaVehicleTomahawk",
+      "name": "Tomahawk",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaVehicleHumvee",
+      "name": "Humvee",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaVehicleMedic",
+      "name": "Medic",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaTankPaladin",
+      "name": "Tank Paladin",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaVehicleSentryDrone",
+      "name": "Sentry Drone",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaTankAvenger",
+      "name": "Tank Avenger",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaTankMicrowave",
+      "name": "Tank Microwave",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaSentryDroneGun",
+      "name": "Sentry Drone Gun",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaTOWMissile",
+      "name": "TOW Missile",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaJetRaptor",
+      "name": "Jet Raptor",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaVehicleComanche",
+      "name": "Comanche",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaJetAurora",
+      "name": "Jet Aurora",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructAmericaJetStealthFighter",
+      "name": "Jet Stealth Fighter",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeComancheRocketPods",
+      "name": "Comanche Rocket Pods",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaLaserMissiles",
+      "name": "Laser Missiles",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaCountermeasures",
+      "name": "Countermeasures",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaBunkerBusters",
+      "name": "Bunker Busters",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:InitiateBattlePlanBombardment",
+      "name": "Bombardment Battle",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:CIAIntelligence",
+      "name": "Intelligence",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:InitiateBattlePlanHoldTheLine",
+      "name": "Hold The Line Battle",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:InitiateBattlePlanSearchAndDestroy",
+      "name": "Search and Destroy",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaChemicalSuits",
+      "name": "Chemical Suits",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaMOAB",
+      "name": "MOAB",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaCompositeArmor",
+      "name": "Composite Armor",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaAdvancedTraining",
+      "name": "Advanced Training",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaDroneArmor",
+      "name": "Drone Armor",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeAmericaSupplyLines",
+      "name": "Supply Lines",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:FireParticleUplinkCannon",
+      "name": "Particle Cannon",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:FireBaseExit",
+      "name": "Fire Base Exit",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "controlbar:airf_constructamericavehiclechinook",
+      "name": "Battle Chinook",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeStealthComanche",
+      "name": "Upgrade Stealth Comanche",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:CarpetBomb",
+      "name": "Carpet Bomb",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "controlbar:lazr_constructamericapatriotbattery",
+      "name": "Patriot Battery",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "controlbar:lazr_constructamericatankcrusader",
+      "name": "Laser Tank",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "controlbar:supw_constructamericapatriotbattery",
+      "name": "Patriot Battery",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:TNTAttack",
+      "name": "TNT Attack",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:DisableBuildingHack",
+      "name": "Disable Building Hack",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:InternetHack",
+      "name": "Internet Hack",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:DisableVehicleHack",
+      "name": "Disable Vehicle Hack",
+      "image": "/images/*.*",
+      "count": 5,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:StealCashHack",
+      "name": "Steal Cash Hack",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaPowerPlant",
+      "name": "Power Plant",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaInternetCenter",
+      "name": "Internet Center",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaBarracks",
+      "name": "Barracks",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaAirfield",
+      "name": "Airfield",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaSupplyCenter",
+      "name": "Supply Center",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaPropagandaCenter",
+      "name": "Propaganda Center",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaBunker",
+      "name": "Bunker",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaSpeakerTower",
+      "name": "Speaker Tower",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaGattlingCannon",
+      "name": "Gattling Cannon",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaNuclearMissileLauncher",
+      "name": "Nuclear Missile",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaWarFactory",
+      "name": "War Factory",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaCommandCenter",
+      "name": "Command Center",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:FireWall",
+      "name": "Fire Wall",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ECMDisableVehicle",
+      "name": "Disable Vehicle",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaOverlordBattleBunker",
+      "name": "Battle Bunker",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaOverlordGattlingCannon",
+      "name": "Gattling Cannon",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaOverlordPropagandaTower",
+      "name": "Propaganda Tower",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:NukeWarhead",
+      "name": "Nuclear Shell",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:NeutronWarhead",
+      "name": "Neutron Shells",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaHelixBattleBunker",
+      "name": "Battle Bunker",
+      "image": "/images/*.*",
+      "count": 5,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaHelixPropagandaTower",
+      "name": "Propaganda Tower",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaHelixGattlingCannon",
+      "name": "Gattling Cannon",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeHelixNapalmBomb",
+      "name": "Napalm Bomb",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:DropNapalmBomb",
+      "name": "Drop Napalm Bomb",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaDozer",
+      "name": "Dozer",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:NapalmStrike",
+      "name": "Napalm Strike",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ClusterMines",
+      "name": "Cluster Mines",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:CashHack",
+      "name": "Cash Hack",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ArtilleryBarrage",
+      "name": "Artillery Barrage",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:EMPPulse",
+      "name": "EMP Pulse",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaRadar",
+      "name": "Radar",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:Frenzy",
+      "name": "Frenzy",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaMines",
+      "name": "China Mines",
+      "image": "/images/*.*",
+      "count": 44,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeEMPMines",
+      "name": "EMP Mines",
+      "image": "/images/*.*",
+      "count": 44,
+      "group": 1
+    },
+    {
+      "label": "CONTROLBAR:Overcharge",
+      "name": "Overcharge",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaInfantryRedguard",
+      "name": "Redguard",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaInfantryTankHunter",
+      "name": "Tank Hunter",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaInfantryHacker",
+      "name": "Hacker",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaInfantryBlackLotus",
+      "name": "Black Lotus",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaRedguardCaptureBuilding",
+      "name": "Capture Building",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaVehicleSupplyTruck",
+      "name": "Supply Truck",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructGLATankBattleMaster",
+      "name": "BattleMaster",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaTankOverlord",
+      "name": "Overlord",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaVehicleTroopCrawler",
+      "name": "Troop Crawler",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaVehicleListeningOutpost",
+      "name": "Listening Outpost",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaTankGattling",
+      "name": "Gattling",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaChainGuns",
+      "name": "Chain Guns",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaTankDragon",
+      "name": "Tank Dragon",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaBlackNapalm",
+      "name": "Black Napalm",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaVehicleInfernoCannon",
+      "name": "Inferno Cannon",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaVehicleNukeLauncher",
+      "name": "Nuke Cannon",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaTankECM",
+      "name": "Tank ECM",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaJetMIG",
+      "name": "Jet MIG",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaAircraftArmor",
+      "name": "MiG Armor",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaVehicleHelix",
+      "name": "Helix",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaNationalism",
+      "name": "Nationalism",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaSubliminalMessaging",
+      "name": "Subliminal Messaging",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:BunkerExit",
+      "name": "Bunker Exit",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaSatelliteHackOne",
+      "name": "Satellite Hack One",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaSatelliteHackTwo",
+      "name": "Satellite Hack Two",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 1
+    },
+    {
+      "label": "CONTROLBAR:NeutronMissile",
+      "name": "Neutron Missile",
+      "image": "/images/*.*",
+      "count": 4,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaUraniumShells",
+      "name": "Uranium Shells",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaNuclearTanks",
+      "name": "Nuclear Tanks",
+      "image": "/images/*.*",
+      "count": 2,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaNeutronShells",
+      "name": "Neutron Shells",
+      "image": "/images/*.*",
+      "count": 3,
+      "group": 0
+    },
+    {
+      "label": "controlbar:infa_constructchinabunker",
+      "name": "Bunker",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaInfantryMiniGunner",
+      "name": "Mini Gunner",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "controlbar:infa_constructchinainfantryhacker",
+      "name": "Hacker",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "controlbar:infa_constructchinainfantryblacklotus",
+      "name": "Black Lotus",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "controlbar:infa_constructchinavehicletroopcrawler",
+      "name": "Troop Crawler",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "controlbar:infa_constructchinavehiclelisteningoutpost",
+      "name": "Listening Outpost",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "controlbar:infa_constructchinavehiclehelix",
+      "name": "Helix",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaFanaticism",
+      "name": "Fanaticism",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "controlbar:nuke_constructchinapowerplant",
+      "name": "Power Plant",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeHelixNukeBomb",
+      "name": "Nuke Bomb",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:DropNukeBomb",
+      "name": "Drop Nuke Bomb",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:Nuke_CarpetBomb",
+      "name": "Carpet Bomb",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "UPGRADE:UpgradeChinaIsotopeStability",
+      "name": "Isotope Stability",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaTacticalNukeMig",
+      "name": "Tactical Nuke Mig",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:TankParadrop",
+      "name": "Tank Paradrop",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:ConstructChinaTankEmperor",
+      "name": "Tank Emperor",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    },
+    {
+      "label": "CONTROLBAR:UpgradeChinaTankAutoLoader",
+      "name": "Auto Loader",
+      "image": "/images/*.*",
+      "count": 1,
+      "group": 0
+    }
+]

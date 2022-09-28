@@ -1,0 +1,300 @@
+﻿<Page x:Class="Hotkeys_Editor_App.HotkeysPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Hotkeys_Editor_App" xmlns:i="http://schemas.microsoft.com/xaml/behaviors" xmlns:viewmodel="clr-namespace:Hotkeys_Editor_App.ViewModel"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HotkeysPage">
+
+    <Page.DataContext>
+        <viewmodel:HotkeysViewModel/>
+    </Page.DataContext>
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="280"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Button HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" Command="{Binding OnBackClick}">
+                <Image Source="Images\back.png" Stretch="Uniform"/>
+            </Button>
+            <TextBlock Text="{Binding Armies[0]}" FontSize="18" Grid.Column="1" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding Armies[1]}" FontSize="18" Grid.Column="2" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding Armies[2]}" FontSize="18" Grid.Column="3" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding Armies[3]}" FontSize="18" Grid.Column="4" HorizontalAlignment="Center"/>
+        </Grid>
+        <ListView ItemsSource="{Binding Hotkeys}" Grid.Row="1" HorizontalAlignment="Left" Name="ListView">
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="80"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0"/>
+                        
+                        <TextBlock Text="{Binding Name}" Grid.Column="1" FontSize="18" HorizontalAlignment="Left"/>
+                        
+                        <TextBox Name="hotkey1" Grid.Column="2" Text="{Binding Hotkeys[0]}" Background="{Binding Colors[0]}" 
+                                 Opacity="{Binding Opacities[0]}" Foreground="Black" Width="80"
+                                 FontSize="18" VerticalAlignment="Center" TextAlignment="Center" 
+                                 Tag="{Binding Labels[0]}" Visibility="{Binding visibilities[0]}">
+
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="TextChanged">
+                                    <i:InvokeCommandAction Command="{Binding DataContext.OnTextChanged, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                                           >
+                                        <i:InvokeCommandAction.CommandParameter>
+                                            <MultiBinding>
+                                                <MultiBinding.Converter>
+                                                    <local:CustomConverter/>
+                                                </MultiBinding.Converter>
+                                                <Binding ElementName="hotkey1" Path="Tag"/>
+                                                <Binding ElementName="hotkey1" Path="Text"/>
+                                                <Binding ElementName="hotkey1" />
+                                            </MultiBinding>
+                                        </i:InvokeCommandAction.CommandParameter>
+
+                                    </i:InvokeCommandAction>
+                                </i:EventTrigger>
+
+                                <i:EventTrigger EventName="GotFocus">
+                                    <i:InvokeCommandAction Command="{Binding DataContext.OnGotFocus, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                                           >
+                                        <i:InvokeCommandAction.CommandParameter>
+                                            <MultiBinding>
+                                                <MultiBinding.Converter>
+                                                    <local:CustomConverter/>
+                                                </MultiBinding.Converter>
+                                                <Binding ElementName="hotkey1" Path="Tag"/>
+                                                <Binding ElementName="hotkey1" Path="Text"/>
+                                                <Binding ElementName="hotkey1" />
+                                            </MultiBinding>
+                                        </i:InvokeCommandAction.CommandParameter>
+
+                                    </i:InvokeCommandAction>
+                                </i:EventTrigger>
+
+
+                                <i:EventTrigger EventName="LostFocus">
+                                    <i:InvokeCommandAction Command="{Binding DataContext.OnLostFocus, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                                           >
+                                        <i:InvokeCommandAction.CommandParameter>
+                                            <MultiBinding>
+                                                <MultiBinding.Converter>
+                                                    <local:CustomConverter/>
+                                                </MultiBinding.Converter>
+                                                <Binding ElementName="hotkey1" Path="Tag"/>
+                                                <Binding ElementName="hotkey1" Path="Text"/>
+                                                <Binding ElementName="hotkey1" />
+                                            </MultiBinding>
+                                        </i:InvokeCommandAction.CommandParameter>
+
+                                    </i:InvokeCommandAction>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+
+                        </TextBox>
+
+                        <TextBox Name="hotkey2" Grid.Column="3" Text="{Binding Hotkeys[1]}" Background="{Binding Colors[1]}" 
+                                 Opacity="{Binding Opacities[1]}" Foreground="Black" Width="80"
+                                 FontSize="18" VerticalAlignment="Center" TextAlignment="Center" 
+                                 Tag="{Binding Labels[1]}" Visibility="{Binding visibilities[1]}">
+
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="TextChanged">
+                                    <i:InvokeCommandAction Command="{Binding DataContext.OnTextChanged, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                                           >
+                                        <i:InvokeCommandAction.CommandParameter>
+                                            <MultiBinding>
+                                                <MultiBinding.Converter>
+                                                    <local:CustomConverter/>
+                                                </MultiBinding.Converter>
+                                                <Binding ElementName="hotkey2" Path="Tag"/>
+                                                <Binding ElementName="hotkey2" Path="Text"/>
+                                                <Binding ElementName="hotkey2" />
+                                            </MultiBinding>
+                                        </i:InvokeCommandAction.CommandParameter>
+
+                                    </i:InvokeCommandAction>
+                                </i:EventTrigger>
+
+                                <i:EventTrigger EventName="GotFocus">
+                                    <i:InvokeCommandAction Command="{Binding DataContext.OnGotFocus, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                                           >
+                                        <i:InvokeCommandAction.CommandParameter>
+                                            <MultiBinding>
+                                                <MultiBinding.Converter>
+                                                    <local:CustomConverter/>
+                                                </MultiBinding.Converter>
+                                                <Binding ElementName="hotkey2" Path="Tag"/>
+                                                <Binding ElementName="hotkey2" Path="Text"/>
+                                                <Binding ElementName="hotkey2" />
+                                            </MultiBinding>
+                                        </i:InvokeCommandAction.CommandParameter>
+
+                                    </i:InvokeCommandAction>
+                                </i:EventTrigger>
+
+
+                                <i:EventTrigger EventName="LostFocus">
+                                    <i:InvokeCommandAction Command="{Binding DataContext.OnLostFocus, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                                           >
+                                        <i:InvokeCommandAction.CommandParameter>
+                                            <MultiBinding>
+                                                <MultiBinding.Converter>
+                                                    <local:CustomConverter/>
+                                                </MultiBinding.Converter>
+                                                <Binding ElementName="hotkey2" Path="Tag"/>
+                                                <Binding ElementName="hotkey2" Path="Text"/>
+                                                <Binding ElementName="hotkey2" />
+                                            </MultiBinding>
+                                        </i:InvokeCommandAction.CommandParameter>
+
+                                    </i:InvokeCommandAction>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+
+                        </TextBox>
+
+                        <TextBox Name="hotkey3" Grid.Column="4" Text="{Binding Hotkeys[2]}" Background="{Binding Colors[2]}" 
+                                 Opacity="{Binding Opacities[2]}" Foreground="Black" Width="80" 
+                                 FontSize="18" VerticalAlignment="Center" TextAlignment="Center"
+                                  Tag="{Binding Labels[2]}" Visibility="{Binding visibilities[2]}">
+
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="TextChanged">
+                                    <i:InvokeCommandAction Command="{Binding DataContext.OnTextChanged, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                                           >
+                                        <i:InvokeCommandAction.CommandParameter>
+                                            <MultiBinding>
+                                                <MultiBinding.Converter>
+                                                    <local:CustomConverter/>
+                                                </MultiBinding.Converter>
+                                                <Binding ElementName="hotkey3" Path="Tag"/>
+                                                <Binding ElementName="hotkey3" Path="Text"/>
+                                                <Binding ElementName="hotkey3" />
+                                            </MultiBinding>
+                                        </i:InvokeCommandAction.CommandParameter>
+
+                                    </i:InvokeCommandAction>
+                                </i:EventTrigger>
+
+                                <i:EventTrigger EventName="GotFocus">
+                                    <i:InvokeCommandAction Command="{Binding DataContext.OnGotFocus, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                                           >
+                                        <i:InvokeCommandAction.CommandParameter>
+                                            <MultiBinding>
+                                                <MultiBinding.Converter>
+                                                    <local:CustomConverter/>
+                                                </MultiBinding.Converter>
+                                                <Binding ElementName="hotkey3" Path="Tag"/>
+                                                <Binding ElementName="hotkey3" Path="Text"/>
+                                                <Binding ElementName="hotkey3" />
+                                            </MultiBinding>
+                                        </i:InvokeCommandAction.CommandParameter>
+
+                                    </i:InvokeCommandAction>
+                                </i:EventTrigger>
+
+
+                                <i:EventTrigger EventName="LostFocus">
+                                    <i:InvokeCommandAction Command="{Binding DataContext.OnLostFocus, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                                           >
+                                        <i:InvokeCommandAction.CommandParameter>
+                                            <MultiBinding>
+                                                <MultiBinding.Converter>
+                                                    <local:CustomConverter/>
+                                                </MultiBinding.Converter>
+                                                <Binding ElementName="hotkey3" Path="Tag"/>
+                                                <Binding ElementName="hotkey3" Path="Text"/>
+                                                <Binding ElementName="hotkey3" />
+                                            </MultiBinding>
+                                        </i:InvokeCommandAction.CommandParameter>
+
+                                    </i:InvokeCommandAction>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+
+                        </TextBox>
+
+                        <TextBox Name="hotkey4" Grid.Column="5" Text="{Binding Hotkeys[3]}" Background="{Binding Colors[3]}" 
+                                 Opacity="{Binding Opacities[3]}" Foreground="Black" Width="80" 
+                                 FontSize="18" VerticalAlignment="Center"  TextAlignment="Center" 
+                                 Tag="{Binding Labels[3]}" Visibility="{Binding visibilities[3]}">
+
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="TextChanged">
+                                    <i:InvokeCommandAction Command="{Binding DataContext.OnTextChanged, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                                           >
+                                        <i:InvokeCommandAction.CommandParameter>
+                                            <MultiBinding>
+                                                <MultiBinding.Converter>
+                                                    <local:CustomConverter/>
+                                                </MultiBinding.Converter>
+                                                <Binding ElementName="hotkey4" Path="Tag"/>
+                                                <Binding ElementName="hotkey4" Path="Text"/>
+                                                <Binding ElementName="hotkey4" />
+                                            </MultiBinding>
+                                        </i:InvokeCommandAction.CommandParameter>
+
+                                    </i:InvokeCommandAction>
+                                </i:EventTrigger>
+
+                                <i:EventTrigger EventName="GotFocus">
+                                    <i:InvokeCommandAction Command="{Binding DataContext.OnGotFocus, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                                           >
+                                        <i:InvokeCommandAction.CommandParameter>
+                                            <MultiBinding>
+                                                <MultiBinding.Converter>
+                                                    <local:CustomConverter/>
+                                                </MultiBinding.Converter>
+                                                <Binding ElementName="hotkey4" Path="Tag"/>
+                                                <Binding ElementName="hotkey4" Path="Text"/>
+                                                <Binding ElementName="hotkey4" />
+                                            </MultiBinding>
+                                        </i:InvokeCommandAction.CommandParameter>
+
+                                    </i:InvokeCommandAction>
+                                </i:EventTrigger>
+
+
+                                <i:EventTrigger EventName="LostFocus">
+                                    <i:InvokeCommandAction Command="{Binding DataContext.OnLostFocus, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                                           >
+                                        <i:InvokeCommandAction.CommandParameter>
+                                            <MultiBinding>
+                                                <MultiBinding.Converter>
+                                                    <local:CustomConverter/>
+                                                </MultiBinding.Converter>
+                                                <Binding ElementName="hotkey4" Path="Tag"/>
+                                                <Binding ElementName="hotkey4" Path="Text"/>
+                                                <Binding ElementName="hotkey4" />
+                                            </MultiBinding>
+                                        </i:InvokeCommandAction.CommandParameter>
+
+                                    </i:InvokeCommandAction>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+
+                        </TextBox>
+
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>
