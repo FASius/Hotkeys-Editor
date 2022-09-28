@@ -69,7 +69,8 @@ namespace Hotkeys_Editor_App.ViewModel
                 return new DelegateCommand((obj) =>
                 {
                     CSFReader.Save(Resourses.HotkeysEditor, Path);
-                }, (obj) => { return Resourses.HotkeysEditor != null; });
+                }, (obj) => { return Resourses.HotkeysEditor != null 
+                    && Path != null; });
             }
         }
 
@@ -80,6 +81,7 @@ namespace Hotkeys_Editor_App.ViewModel
                 return new DelegateCommand((obj) =>
                 {
                     SaveFileDialog saveFileDialog = new SaveFileDialog();
+                    saveFileDialog.FileName = "generals.csf";
                     saveFileDialog.ShowDialog();
                     Path = saveFileDialog.FileName;
                     CSFReader.Save(Resourses.HotkeysEditor, Path);
